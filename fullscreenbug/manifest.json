@@ -1,0 +1,22 @@
+{
+    "short_name": "FullScreenBug",
+    "name": "I want a minimal example for the fullscreen ui bug",
+    "icons": [
+        {
+            "src": "./192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "./512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "./index.html",
+    "background_color": "#3367D6",
+    "display": "fullscreen",
+    "scope": "./",
+    "theme_color": "#3367D6",
+    "description": "TEST"
+}

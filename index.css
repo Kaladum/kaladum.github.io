@@ -1,0 +1,39 @@
+html,
+body {
+	margin: 0px;
+	height: 100%;
+	display: grid;
+}
+
+.canvas-container {
+	overflow: hidden;
+	position: relative;
+}
+
+.canvas-container > * {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.render-overlay {
+	pointer-events: none;
+	z-index: 100;
+}
+
+.touch-controller {
+	pointer-events: initial;
+}
+
+.move-controller {
+	position: absolute;
+	bottom: 30px;
+	left: 30px;
+}
+
+.view-controller {
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+}
+

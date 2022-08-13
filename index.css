@@ -37,3 +37,22 @@ body {
 	right: 30px;
 }
 
+.depth-viewer {
+	z-index: 100;
+	pointer-events: initial;
+	position: absolute;
+	right: 30px;
+	top: 30px;
+	background-color: white;
+	border-radius: 3px;
+	padding: 5px;
+}
+
+.depth-viewer-hidden .depth-viewer-text {
+	display: none;
+}
+
+.depth-viewer-text {
+	font-weight: bold;
+}
+
